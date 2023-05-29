@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Archiving snapshots of reports from Power BI into OneLake"
+title: "Archiving report snapshots from Power BI into OneLake"
 date: 2023-05-29 09:25:00 -0000
 categories: MicrosoftFabric Fabric PowerBI
 ---
