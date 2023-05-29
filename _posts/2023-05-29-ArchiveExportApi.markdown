@@ -27,8 +27,9 @@ I chose the Yes-code way and built a notebook to archive the export of a report 
 
 **Now the walkthrough**
 
-**1. Define the report to export** format and additional properties like filters (I used the [IT Spend Analysis sample](https://learn.microsoft.com/en-us/power-bi/create-reports/sample-it-spend)
-One note of caution is that the page name for the api is the internal name not the same that you see in the report, you can use the [Get Pages Api](https://learn.microsoft.com/en-us/rest/api/power-bi/reports/get-page-in-group) or grab it from the url ![image](https://github.com/jtarquino/jtarquino.github.io/assets/8054158/62878080-ff2f-4d46-9f6b-61fcb8c4747b)
+**1. Define the report to export** format and additional properties like filters (I used the [IT Spend Analysis sample](https://learn.microsoft.com/en-us/power-bi/create-reports/sample-it-spend)##
+
+*One note of caution is that the page name for the api is the internal name not the same that you see in the report, you can use the [Get Pages Api](https://learn.microsoft.com/en-us/rest/api/power-bi/reports/get-page-in-group) or grab it from the url* ![image](https://github.com/jtarquino/jtarquino.github.io/assets/8054158/62878080-ff2f-4d46-9f6b-61fcb8c4747b)
 
  
 {% highlight python %}
