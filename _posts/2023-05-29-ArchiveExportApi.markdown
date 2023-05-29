@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Archiving the snapshots of reports in OneLake"
+title: "Archiving snapshots of reports from Power BI into OneLake"
 date: 2023-05-29 09:25:00 -0000
 categories: MicrosoftFabric Fabric PowerBI
 ---
@@ -17,7 +17,7 @@ Power BI has the [ExportTo Api](https://learn.microsoft.com/en-us/rest/api/power
 Althought Power BI offers tipically a no code experience with [subscriptions](https://learn.microsoft.com/en-us/power-bi/collaborate-share/end-user-subscribe?tabs=creator) and the [Power Automate action](https://learn.microsoft.com/en-us/power-bi/collaborate-share/service-automate-power-bi-report-export)
 I chose the Yes-code way and built a notebook to archive the export of a report every day (the full workbook ready to upload to Microsoft Fabric is available [here](https://github.com/jtarquino/jtarquino.github.io/blob/master/samples/ExportBlogPost.ipynb)
 
-**1. Define the report to export** format and additional properties like filters (I used the [IT Spend Analysis sample](https://learn.microsoft.com/en-us/power-bi/create-reports/sample-it-spend)]
+**1. Define the report to export** format and additional properties like filters (I used the [IT Spend Analysis sample](https://learn.microsoft.com/en-us/power-bi/create-reports/sample-it-spend)
  
 {% highlight python %}
 import requests
@@ -49,7 +49,7 @@ headers = {
 }
 {% endhighlight %}
 
-**2. Call the Power BI [ExportTo Api]**(https://learn.microsoft.com/en-us/rest/api/power-bi/reports/export-to-file-in-group) to schedule the export
+**2. Call the Power BI [ExportTo Api](https://learn.microsoft.com/en-us/rest/api/power-bi/reports/export-to-file-in-group)** to schedule the export
 {% highlight python %}
 # Schedule the export job in Power BI
 export_url = f"https://api.powerbi.com/v1.0/myorg/groups/{workspace_id}/reports/{report_id}/ExportTo"
