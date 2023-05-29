@@ -1,8 +1,9 @@
+---
 layout: post
 title: "Archiving the snapshots of reports in OneLake"
 date: 2023-05-29 09:25:00 -0000
 categories: MicrosoftFabric Fabric PowerBI
-
+---
 
 I haven't written in a long time, however with the release last week of Microsoft Fabric and OneLake by our organization some ideas came to my mind and I want to give it a try.
 Some of the new features that got my attention was the easy access from the Notebooks to
