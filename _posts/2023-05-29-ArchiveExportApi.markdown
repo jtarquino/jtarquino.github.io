@@ -15,9 +15,7 @@ Some of the new features that got my attention was the easy access from the Note
 
 Power BI has the [ExportTo Api](https://learn.microsoft.com/en-us/rest/api/power-bi/reports/export-to-file-in-group) which allows the export of any report in a workspace (either pbi or paginated).
 
-Althought Power BI offers tipically a no code experience with [subscriptions](https://learn.microsoft.com/en-us/power-bi/collaborate-share/end-user-subscribe?tabs=creator) and the [Power Automate action](https://learn.microsoft.com/en-us/power-bi/collaborate-share/service-automate-power-bi-report-export)
-
-I chose the Yes-code way and built a notebook to archive the export of a report every day (the full workbook ready to upload to Microsoft Fabric is available [here](https://github.com/jtarquino/jtarquino.github.io/blob/master/samples/ExportBlogPost.ipynb))
+Althought Power BI offers tipically a no code experience with [subscriptions](https://learn.microsoft.com/en-us/power-bi/collaborate-share/end-user-subscribe?tabs=creator) and the [Power Automate action](https://learn.microsoft.com/en-us/power-bi/collaborate-share/service-automate-power-bi-report-export), I chose the Yes-code way and built a notebook to archive the export of a report every day (the full workbook ready to upload to Microsoft Fabric is available [here](https://github.com/jtarquino/jtarquino.github.io/blob/master/samples/ExportBlogPost.ipynb))
 
 **The final result will be available in the lakehouse under Files/ExportedFiles**
 ![image](https://github.com/jtarquino/jtarquino.github.io/assets/8054158/283cf739-94a6-4139-89d8-5c58096816ab)
