@@ -27,7 +27,7 @@ twitter_username: jtarquino
 github_username:  jtarquino
 
 # Build settings
-theme: minima
+theme: hacker
 plugins:
   - jekyll-feed
 
